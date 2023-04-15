@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.login_card {
+    background-color: rgb(63, 63, 203);
+    width: fit-content;
+    padding: 1.5em;
+    height: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
+
+input , button , select{
+    padding: 5px;
+    outline: none;
+}
+label{
+    color: white;
+    margin-top: 5px;
+}
+button{
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------- */
+
